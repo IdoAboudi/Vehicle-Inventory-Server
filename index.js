@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 
 try{
     // Connect to Mongoose and set connection variable
-    mongoose.connect('mongodb://ido:12345i@ds151596.mlab.com:51596/vehicle-inventory', {useNewUrlParser: true});
+    mongoose.connect('mongodb://<USERNAME>:<PASSWORD>@ds151596.mlab.com:51596/vehicle-inventory', {useNewUrlParser: true});
     var db = mongoose.connection;
 }catch(err) {
     console.error(err);
