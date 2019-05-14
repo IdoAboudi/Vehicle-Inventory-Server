@@ -1,0 +1,24 @@
+{
+  "name": "argusexercise",
+  "version": "1.0.0",
+  "description": "ARGUS vehicle inventory exercise - Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdoAboudi/Vehicle-Inventory-Server.git"
+  },
+  "author": "Ido Aboudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IdoAboudi/Vehicle-Inventory-Server/issues"
+  },
+  "homepage": "https://github.com/IdoAboudi/Vehicle-Inventory-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.6"
+  }
+}
